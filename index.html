@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>Canvas Shooter Game</title>
+		
+		<link rel="stylesheet" href="game.css" />
+	</head>
+	<body>
+		<div class="score-board">
+			<span id="score-text" class="score-text">Score:</span>
+			<span id="score-value" class="score-value">0</span>
+		</div>
+		
+		<div id="game-menu" class="game-menu">
+			<h1 id="game-score" class="score-value">0</h1>
+			<p class="score-value">Points</p>
+			<span class="start-button-wrapper">
+				<button type="button" id="start-button">Start Game</button>
+			</span>
+		</div>
+		
+		<canvas id="canvas"></canvas>
+		
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script type="text/javascript" src="game.js"></script>
+	</body>
+</html>
+	
